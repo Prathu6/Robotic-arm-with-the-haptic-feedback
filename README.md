@@ -20,20 +20,6 @@ The project demonstrates embedded firmware development, custom PCB design, senso
 
 ## System Architecture
 
-Haptic Glove
-     │
-MPU6050 + Flex Sensors
-     │
-ESP32
-     │ Wi-Fi
-     ▼
-ESP32 Controller
-     │
-PCA9685
-     │
-Servo Motors
-     │
-Robotic Arm
 ![System Architecture](<robotic arm .png>)
 
 ## 🧩 Project Modules
@@ -45,19 +31,18 @@ The glove serves as the primary input device of the system.
 It captures the operator's hand movements and wrist orientation using multiple sensors and converts them into motion commands for the robotic arm.
 
 ### Features
-Hand gesture detection
-Wrist orientation tracking
-Finger bending detection
-Haptic vibration feedback
-Wireless communication
+-Hand gesture detection
+-Wrist orientation tracking
+-Finger bending detection
+-Haptic vibration feedback
+-Wireless communication
 
 ### Components Used
-ESP32
-MPU6050 IMU
-Flex Sensors
-Vibration Motors
-Li-ion Battery
-Custom PCB
+-ESP8266/ESP32
+-MPU6050 IMU
+-Flex Sensors/Potientiometer
+-Vibration Motors
+-SMPS Power Supply
 
 ### 2️⃣ Robotic Hand (Hand up to Wrist)
 
@@ -66,25 +51,26 @@ The robotic hand mirrors the movement of the operator's hand.
 This section includes the mechanical design, embedded control, and actuator integration responsible for replicating wrist and finger motion.
 
 Features
-Finger actuation
-Wrist movement
-Servo motor control
-Embedded firmware
-Mechanical assembly
-Custom PCB integration
+-Finger actuation
+-Wrist movement
+-Servo motor control
+-Embedded firmware
+-Mechanical assembly
+-Custom PCB integration
+-3D printed Model
 
-### 3️⃣ Manipulator (Arm Section)
+### 3️⃣ Manipulator (Arm Section) 5 DOF
 
 The manipulator represents the complete robotic arm responsible for shoulder, elbow, and base movement.
 
 Its purpose is to extend the robotic hand into a fully functional 5-DOF robotic arm capable of performing manipulation tasks.
 
-Planned Features
-Base rotation
-Shoulder joint
-Elbow joint
-Wrist rotation
-Object manipulation
+### Planned Features
+-Base rotation
+-Shoulder joint
+-Elbow joint
+-Wrist rotation
+-Object manipulation
 
 ## ⚠️ Current Project Status
 
@@ -105,6 +91,7 @@ The manipulator (base, shoulder, and elbow assembly) is still under development 
 Future updates will include the complete manipulator, inverse kinematics, improved motion planning, and full-system integration.
 
 ## ⚙️ Working Principle
+
 Step 1 — Motion Capture
 
 The operator wears the haptic glove.
@@ -129,33 +116,34 @@ When interaction is detected, vibration motors on the glove provide tactile feed
 
 ## 🛠 Technologies Used
 
-Hardware
-ESP32
-MPU6050 IMU
-Flex Sensors
-Servo Motors
-PCA9685 Servo Driver
-Custom PCB
-Li-ion Battery
-Software
-Embedded C++
-Arduino Framework
-VS Code
-Git & GitHub
-KiCad / EasyEDA
-Fusion 360
+### Hardware
+-ESP32/ESP8266
+-MPU6050 IMU
+-Flex Sensors/Potientiometer
+-Servo Motors-MG90s,MG996R
+-PCA9685 Servo Driver
+-Custom PCB
+-SMPS for Power Supply
+
+### Software
+-Embedded C++
+-Arduino Framework
+-VS Code
+-Git & GitHub
+-KiCad / EasyEDA
+-Fusion 360
 
 ## 🚀 Future Scope
 
-Complete 5-DOF manipulator
-Inverse Kinematics implementation
-Force feedback system
-ROS 2 integration
-Camera-assisted object tracking
-Computer vision-based object detection
-Wireless latency optimization
-Mobile application support
-Improved sensor fusion algorithms
+-Complete 5-DOF manipulator
+-Inverse Kinematics implementation
+-Force feedback system
+-ROS 2 integration
+-Camera-assisted object tracking
+-Computer vision-based object detection
+-Wireless latency optimization
+-Mobile application support
+-Improved sensor fusion algorithms
 
 ## 📌 Project Vision
 
