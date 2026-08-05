@@ -87,12 +87,15 @@ Object manipulation
 
 ## ⚠️ Current Project Status
 
-Project Progress
-Module	Status
-Haptic Glove	✅ Completed
-Robotic Hand (Up to Wrist)	✅ Completed
-Manipulator Section	🚧 Under Development
-Important Note
+### Project Progress
+
+| Module | Status |
+|--------|--------|
+| Haptic Glove | ✅ Completed |
+| Robotic Hand (Up to Wrist) | ✅ Completed |
+| Manipulator Section | 🚧 Under Development |
+
+Important Note:
 
 The current version of this project includes a fully functional haptic glove and a robotic hand developed up to the wrist section.
 
