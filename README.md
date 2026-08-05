@@ -34,23 +34,24 @@ PCA9685
 Servo Motors
      │
 Robotic Arm
+![System Architecture](<robotic arm .png>)
 
 ## 🧩 Project Modules
 
-1️⃣ Haptic Glove (Operator Side)
+### 1️⃣ Haptic Glove (Operator Side)
 
 The glove serves as the primary input device of the system.
 
 It captures the operator's hand movements and wrist orientation using multiple sensors and converts them into motion commands for the robotic arm.
 
-Features
+### Features
 Hand gesture detection
 Wrist orientation tracking
 Finger bending detection
 Haptic vibration feedback
 Wireless communication
 
-Components Used
+### Components Used
 ESP32
 MPU6050 IMU
 Flex Sensors
@@ -58,7 +59,7 @@ Vibration Motors
 Li-ion Battery
 Custom PCB
 
-2️⃣ Robotic Hand (Hand up to Wrist)
+### 2️⃣ Robotic Hand (Hand up to Wrist)
 
 The robotic hand mirrors the movement of the operator's hand.
 
@@ -72,7 +73,7 @@ Embedded firmware
 Mechanical assembly
 Custom PCB integration
 
-3️⃣ Manipulator (Arm Section)
+### 3️⃣ Manipulator (Arm Section)
 
 The manipulator represents the complete robotic arm responsible for shoulder, elbow, and base movement.
 
@@ -95,7 +96,7 @@ Object manipulation
 | Robotic Hand (Up to Wrist) | ✅ Completed |
 | Manipulator Section | 🚧 Under Development |
 
-Important Note:
+### Important Note:
 
 The current version of this project includes a fully functional haptic glove and a robotic hand developed up to the wrist section.
 
