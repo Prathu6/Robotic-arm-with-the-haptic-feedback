@@ -158,5 +158,5 @@ Every PCB, every line of firmware, every CAD model, and every prototype has been
 
 > See the current prototype in action — from the haptic glove to the robotic hand/wrist system.
 
-[![Robotic Arm with Haptic Feedback - Project Demo](https://youtu.be/1jYXAoZpEJU)
+[![Robotic Arm with Haptic Feedback - Project Demo](arm final.png)](https://youtu.be/1jYXAoZpEJU)
 
