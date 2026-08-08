@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project enables intuitive real-time control of a 5-DOF robotic arm using a wearable haptic glove. Hand and wrist movements are captured using IMU and flex sensors, processed by an ESP32, and transmitted to the robotic arm. The system also provides haptic feedback to improve operator interaction.
+This project enables intuitive real-time control of a 5-DOF robotic arm using a wearable haptic glove. Hand and wrist movements are captured using IMU and flex sensors/potentiometer, processed by an ESP32, and transmitted to the robotic arm. The system also provides haptic feedback to improve operator interaction.
 
 The project demonstrates embedded firmware development, custom PCB design, sensor interfacing, motor control, and hardware-software integration.
 
@@ -40,7 +40,7 @@ It captures the operator's hand movements and wrist orientation using multiple s
 ### Components Used
 - ESP8266/ESP32
 - MPU6050 IMU
-- Flex Sensors/Potientiometer
+- Flex Sensors/ Potentiometer
 - Vibration Motors
 - SMPS Power Supply
 
@@ -152,3 +152,11 @@ This project is more than just a robotic arm.
 It is an attempt to create a natural bridge between human motion and robotic manipulation using embedded systems, intelligent sensing, and custom hardware.
 
 Every PCB, every line of firmware, every CAD model, and every prototype has been built as a step toward creating a more intuitive human-machine interaction system.
+
+## 🎥Demonstration
+## 🎥 Project Demo
+
+> See the current prototype in action — from the haptic glove to the robotic hand/wrist system.
+
+[![Robotic Arm with Haptic Feedback - Project Demo](Images/arm final.png)](https://youtu.be/1jYXAoZpEJU)
+
