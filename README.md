@@ -154,7 +154,6 @@ It is an attempt to create a natural bridge between human motion and robotic man
 Every PCB, every line of firmware, every CAD model, and every prototype has been built as a step toward creating a more intuitive human-machine interaction system.
 
 ## 🎥Demonstration
-## 🎥 Project Demo
 
 > See the current prototype in action — from the haptic glove to the robotic hand/wrist system.
 
